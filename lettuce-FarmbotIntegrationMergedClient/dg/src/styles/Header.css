@@ -1,0 +1,36 @@
+/* src/styles/Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1vh;
+    padding: 2vh;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.logout-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 15px; /* Uniform padding */
+    font-size: 1.1em; /* Uniform font size */
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px; /* Set the same height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    gap: 5px; /* Space between icon and text */
+    width: 50px; /* Fixed width for extra space */
+}
+
+
+
+.logout-button:hover {
+    background-color: #333;
+}
+

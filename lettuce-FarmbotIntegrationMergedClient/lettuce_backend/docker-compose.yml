@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+
+  backend:
+    build: .
+    container_name: backend
+    networks:
+      - myNetwork
+    ports:
+      - '5000:5000'
+      - '8883:8883'
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mydatabase
+      - PYTHONUNBUFFERED=1
+
+networks:
+  myNetwork:
+   external: true

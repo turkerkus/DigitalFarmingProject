@@ -1,0 +1,9 @@
+Flask==2.0.3
+Flask-PyMongo==2.3.0
+Flask-CORS==3.0.10
+Werkzeug==2.2.2
+Websockets
+Paho-mqtt
+Requests
+Numpy
+Websocket_server
